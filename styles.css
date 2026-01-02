@@ -9,7 +9,7 @@ body{
     font-size: 18px;
 }
 h1{
-    color: #556ba8;
+    color: #777C6D;
     text-align: center;
     margin-top: 4px;
     font-size: 70px;
@@ -30,7 +30,7 @@ textarea {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #EEEEEE;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .sign-in-form label{
@@ -48,6 +48,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 12px;
     box-sizing: border-box;
+    background-color: #EEEEEE;
 }
 .sign-in-form input[type="text"]:focus,
 .sign-in-form input[type="password"]:focus,
@@ -69,11 +70,11 @@ textarea {
     font-family: "Be Vietnam Pro", sans-serif;
     width: 45px;
     height: 45px;
-    background-color: #ffffff;
-    color: #556ba8;
+    background-color: #EEEEEE;
+    color: #777C6D;
     border-radius: 15px;
     border-style: solid;
-    border-color: #aaaebb;
+    border-color: #CBCBCB;
     cursor: pointer;
     font-size: 30px;
     display: flex;
@@ -82,7 +83,7 @@ textarea {
     margin-top: 50px;
 }
 .social:hover{
-    background-color: #f0f0f0;
+    filter: grayscale(50%);
     transition: all 0.1s ease;
 }
 
@@ -90,7 +91,7 @@ textarea {
     font-family: "Be Vietnam Pro", sans-serif;
     width: 100%;
     padding: 10px;
-    background-color: #556ba8;
+    background-color: #777C6D;
     color: white;
     border: none;
     border-radius: 15px;
@@ -102,15 +103,15 @@ textarea {
     font-family: "Be Vietnam Pro", sans-serif;
     width: 100%;
     padding: 10px;
-    background-color: #252c3f;
-    color: white;
+    background-color: #B7B89F;
+    color: #EEEEEE;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 20px;
 }
-.btn:hover, .btn2:hover{
-    background-color: #394a70;
+.btn:hover, .btn2:hover {
+    filter: grayscale(50%);
     transition: all 0.1s ease;
 }
